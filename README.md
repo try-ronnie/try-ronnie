@@ -19,8 +19,15 @@ Got you — here’s a fully copy-paste-ready, all-in-one cyberpunk README. No e
 + Target: Elite Problem Solving
 + Contributions: 2026 Snake Grid Animation Enabled
 
-🐍 SNAKE-EATING CONTRIBUTIONS
-<p align="center"> <picture> <source media="(prefers-color-scheme: dark)" srcset="assets/snake-dark.svg"> <source media="(prefers-color-scheme: light)" srcset="assets/snake-light.svg"> <img alt="Snake eating contributions" src="assets/snake-dark.svg"> </picture> </p> <p align="center"> <sub>🐍 Watch the snake devour contributions – auto dark/light mode</sub> </p>
+🎮 PACMAN CONSUMING CONTRIBUTIONS
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/pacman-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/pacman-light.svg">
+    <img alt="Pacman eating contributions" src="assets/pacman-dark.svg">
+  </picture>
+</p>
+
 📅 2026 CONTRIBUTION MATRIX
 <p align="center"> <img src="https://ghchart.rshah.org/00F5FF/Try-Ronnie" alt="Try-Ronnie's 2026 GitHub contributions calendar" /> </p> <p align="center"> <sub>🔥 Live contribution grid – updates daily</sub> </p>
 📊 NEON STATS MATRIX
