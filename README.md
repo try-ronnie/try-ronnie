@@ -43,29 +43,31 @@
   <table>
     <tr>
       <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40" alt="Python"/>
+        <img src="https://skillicons.dev/icons?i=python" width="40" alt="Python"/>
         <br/>🐍 Python Development (Backend)
       </td>
       <td align="center">
-        <img src="https://raw.githubusercontent.com/tiangolo/fastapi/master/docs/img/logo-margin/logo-teal.svg" width="40" alt="FastAPI"/>
+        <img src="https://skillicons.dev/icons?i=fastapi" width="40" alt="FastAPI"/>
         <br/>⚡ FastAPI & Flask
       </td>
       <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" alt="React"/>
+        <img src="https://skillicons.dev/icons?i=react" width="40" alt="React"/>
         <br/>🖥️ Full-Stack Web (React)
       </td>
     </tr>
     <tr>
       <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" alt="Node.js"/>
+        <img src="https://skillicons.dev/icons?i=nodejs" width="40" alt="Node.js"/>
         <br/>🌐 Node.js Backend
       </td>
       <td align="center">
-        <img src="https://raw.githubusercontent.com/pygame/pygame/main/docs/_static/pygame_icon.svg" width="40" alt="Pygame"/>
+        <img src="https://skillicons.dev/icons?i=pygame" width="40" alt="Pygame"/>
         <br/>🎮 Game Development (Pygame)
       </td>
       <td align="center">
-        <img src="https://img.shields.io/codewars/users/Try-Ronnie?label=Codewars&style=for-the-badge&color=ba54bd" width="40" alt="Codewars"/>
+        <a href="https://www.codewars.com/users/Try-Ronnie">
+          <img src="https://img.shields.io/codewars/users/Try-Ronnie?label=Codewars&style=for-the-badge&color=ba54bd" width="40" alt="Codewars"/>
+        </a>
         <br/>💻 Competitive Programming
       </td>
     </tr>
@@ -95,54 +97,54 @@
   <table>
     <tr>
       <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50" alt="Python"/>
+        <img src="https://skillicons.dev/icons?i=python" width="50" alt="Python"/>
         <br/>Python
         <br/><img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/graphs/python-graph.svg" width="120"/>
       </td>
       <td align="center">
-        <img src="https://raw.githubusercontent.com/tiangolo/fastapi/master/docs/img/logo-margin/logo-teal.svg" width="50" alt="FastAPI"/>
+        <img src="https://skillicons.dev/icons?i=fastapi" width="50" alt="FastAPI"/>
         <br/>FastAPI
         <br/><img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/graphs/fastapi-graph.svg" width="120"/>
       </td>
       <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" width="50" alt="Flask"/>
+        <img src="https://skillicons.dev/icons?i=flask" width="50" alt="Flask"/>
         <br/>Flask
         <br/><img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/graphs/flask-graph.svg" width="120"/>
       </td>
       <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="50" alt="React"/>
+        <img src="https://skillicons.dev/icons?i=react" width="50" alt="React"/>
         <br/>React
         <br/><img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/graphs/react-graph.svg" width="120"/>
       </td>
       <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="50" alt="Node.js"/>
+        <img src="https://skillicons.dev/icons?i=nodejs" width="50" alt="Node.js"/>
         <br/>Node.js
         <br/><img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/graphs/nodejs-graph.svg" width="120"/>
       </td>
     </tr>
     <tr>
       <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50" alt="JavaScript"/>
+        <img src="https://skillicons.dev/icons?i=js" width="50" alt="JavaScript"/>
         <br/>JavaScript
         <br/><img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/graphs/javascript-graph.svg" width="120"/>
       </td>
       <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50" alt="HTML"/>
+        <img src="https://skillicons.dev/icons?i=html" width="50" alt="HTML"/>
         <br/>HTML
         <br/><img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/graphs/html-graph.svg" width="120"/>
       </td>
       <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50" alt="CSS"/>
+        <img src="https://skillicons.dev/icons?i=css" width="50" alt="CSS"/>
         <br/>CSS
         <br/><img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/graphs/css-graph.svg" width="120"/>
       </td>
       <td align="center">
-        <img src="https://raw.githubusercontent.com/pygame/pygame/main/docs/_static/pygame_icon.svg" width="50" alt="Pygame"/>
+        <img src="https://skillicons.dev/icons?i=pygame" width="50" alt="Pygame"/>
         <br/>Pygame
         <br/><img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/graphs/pygame-graph.svg" width="120"/>
       </td>
       <td align="center">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="50" alt="Git"/>
+        <img src="https://skillicons.dev/icons?i=git" width="50" alt="Git"/>
         <br/>Git
         <br/><img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/graphs/python-graph.svg" width="120"/>
       </td>
