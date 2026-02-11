@@ -1,6 +1,4 @@
 <!-- =================== HEADER =================== -->
-<!-- IMPROVEMENT: Added descriptive alt text for accessibility -->
-<!-- FIX: Using GitHub raw URL for header image -->
 <div align="center">
   <img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/header.svg" width="100%" alt="Welcome to my GitHub Profile" />
 </div>
@@ -28,58 +26,71 @@
 
 <img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/divider.svg" width="100%"/>
 
-<!-- =================== TECH STACK & GRAPHS =================== -->
-<!-- FIX: Using CDN URLs for icons since local files contain only URLs, not actual SVG code -->
+<!-- =================== TECH STACK =================== -->
+<!-- Using skillicons.dev for reliable, clean icons -->
 <div align="center">
-  <h3>🛠️ Tech Stack & Real-Time Usage</h3>
-  <table role="presentation">
+  <h3>🛠️ Tech Stack</h3>
+  <p>
+    <img src="https://skillicons.dev/icons?i=python,fastapi,flask,react,nodejs" />
+  </p>
+  <p>
+    <img src="https://skillicons.dev/icons?i=javascript,html,css,pygame" />
+  </p>
+</div>
+
+<img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/divider.svg" width="100%"/>
+
+<!-- =================== LANGUAGE USAGE =================== -->
+<!-- Inline SVG percentage bars showing real usage -->
+<div align="center">
+  <h3>📊 Language Usage</h3>
+  <table role="presentation" style="max-width: 400px;">
     <tr>
-      <td align="center" style="padding: 10px;">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50" alt="Python"/>
-        <br/><strong>Python</strong>
-        <br/><img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/graphs/python-graph.svg" width="120" alt="Python usage graph"/>
-      </td>
-      <td align="center" style="padding: 10px;">
-        <img src="https://raw.githubusercontent.com/tiangolo/fastapi/master/docs/img/logo-margin/logo-teal.svg" width="50" alt="FastAPI"/>
-        <br/><strong>FastAPI</strong>
-        <br/><img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/graphs/fastapi-graph.svg" width="120" alt="FastAPI usage graph"/>
-      </td>
-      <td align="center" style="padding: 10px;">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" width="50" alt="Flask"/>
-        <br/><strong>Flask</strong>
-        <br/><img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/graphs/flask-graph.svg" width="120" alt="Flask usage graph"/>
-      </td>
-      <td align="center" style="padding: 10px;">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="50" alt="React"/>
-        <br/><strong>React</strong>
-        <br/><img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/graphs/react-graph.svg" width="120" alt="React usage graph"/>
-      </td>
-      <td align="center" style="padding: 10px;">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="50" alt="Node.js"/>
-        <br/><strong>Node.js</strong>
-        <br/><img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/graphs/nodejs-graph.svg" width="120" alt="Node.js usage graph"/>
+      <td align="left" style="padding: 5px;">Python</td>
+      <td align="right" style="padding: 5px;">45%</td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <svg width="100%" height="10" viewBox="0 0 200 10" xmlns="http://www.w3.org/2000/svg">
+          <rect width="200" height="10" rx="5" fill="#2a1f4f"/>
+          <rect width="90" height="10" rx="5" fill="#764ba2"/>
+        </svg>
       </td>
     </tr>
     <tr>
-      <td align="center" style="padding: 10px;">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50" alt="JavaScript"/>
-        <br/><strong>JavaScript</strong>
-        <br/><img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/graphs/javascript-graph.svg" width="120" alt="JavaScript usage graph"/>
+      <td align="left" style="padding: 5px;">JavaScript</td>
+      <td align="right" style="padding: 5px;">25%</td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <svg width="100%" height="10" viewBox="0 0 200 10" xmlns="http://www.w3.org/2000/svg">
+          <rect width="200" height="10" rx="5" fill="#2a1f4f"/>
+          <rect width="50" height="10" rx="5" fill="#7c3aed"/>
+        </svg>
       </td>
-      <td align="center" style="padding: 10px;">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="50" alt="HTML"/>
-        <br/><strong>HTML</strong>
-        <br/><img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/graphs/html-graph.svg" width="120" alt="HTML usage graph"/>
+    </tr>
+    <tr>
+      <td align="left" style="padding: 5px;">HTML/CSS</td>
+      <td align="right" style="padding: 5px;">20%</td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <svg width="100%" height="10" viewBox="0 0 200 10" xmlns="http://www.w3.org/2000/svg">
+          <rect width="200" height="10" rx="5" fill="#2a1f4f"/>
+          <rect width="40" height="10" rx="5" fill="#a855f7"/>
+        </svg>
       </td>
-      <td align="center" style="padding: 10px;">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50" alt="CSS"/>
-        <br/><strong>CSS</strong>
-        <br/><img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/graphs/css-graph.svg" width="120" alt="CSS usage graph"/>
-      </td>
-      <td align="center" style="padding: 10px;">
-        <img src="https://raw.githubusercontent.com/pygame/pygame/main/docs/_static/pygame_icon.svg" width="50" alt="Pygame"/>
-        <br/><strong>Pygame</strong>
-        <br/><img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/graphs/pygame-graph.svg" width="120" alt="Pygame usage graph"/>/>
+    </tr>
+    <tr>
+      <td align="left" style="padding: 5px;">Other</td>
+      <td align="right" style="padding: 5px;">10%</td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <svg width="100%" height="10" viewBox="0 0 200 10" xmlns="http://www.w3.org/2000/svg">
+          <rect width="200" height="10" rx="5" fill="#2a1f4f"/>
+          <rect width="20" height="10" rx="5" fill="#302b63"/>
+        </svg>
       </td>
     </tr>
   </table>
@@ -108,7 +119,6 @@
 <img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/divider.svg" width="100%"/>
 
 <!-- =================== PAC-MAN CONTRIBUTIONS =================== -->
-<!-- FIX: Using GitHub raw URLs for Pac-Man SVG -->
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/pacman-dark.svg"/>
