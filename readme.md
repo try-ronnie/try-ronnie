@@ -26,9 +26,9 @@
 
 <img src="./assets/divider.svg" width="100%"/>
 
-<!-- =================== TECH STACK =================== -->
+<!-- =================== TECH STACK & GRAPHS =================== -->
 <div align="center">
-  <h3>🛠 Tech Stack & Usage Graphs</h3>
+  <h3>🛠 Tech Stack & Real-Time Usage</h3>
   <table>
     <tr>
       <td align="center">
@@ -37,14 +37,14 @@
         <br/><img src="./assets/graphs/python-graph.svg" width="120"/>
       </td>
       <td align="center">
+        <img src="./assets/icons/fastapi.svg" width="50"/>
+        <br/>FastAPI
+        <br/><img src="./assets/graphs/fastapi-graph.svg" width="120"/>
+      </td>
+      <td align="center">
         <img src="./assets/icons/flask.svg" width="50"/>
         <br/>Flask
         <br/><img src="./assets/graphs/flask-graph.svg" width="120"/>
-      </td>
-      <td align="center">
-        <img src="./assets/icons/pygame.svg" width="50"/>
-        <br/>Pygame
-        <br/><img src="./assets/graphs/pygame-graph.svg" width="120"/>
       </td>
       <td align="center">
         <img src="./assets/icons/react.svg" width="50"/>
@@ -55,6 +55,31 @@
         <img src="./assets/icons/nodejs.svg" width="50"/>
         <br/>Node.js
         <br/><img src="./assets/graphs/nodejs-graph.svg" width="120"/>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="./assets/icons/javascript.svg" width="50"/>
+        <br/>JavaScript
+        <br/><img src="./assets/graphs/javascript-graph.svg" width="120"/>
+      </td>
+      <td align="center">
+        <img src="./assets/icons/html.svg" width="50"/>
+        <br/>HTML
+        <br/><img src="./assets/graphs/html-graph.svg" width="120"/>
+      </td>
+      <td align="center">
+        <img src="./assets/icons/css.svg" width="50"/>
+        <br/>CSS
+        <br/><img src="./assets/graphs/css-graph.svg" width="120"/>
+      </td>
+      <td align="center">
+        <img src="./assets/icons/pygame.svg" width="50"/>
+        <br/>Pygame
+        <br/><img src="./assets/graphs/pygame-graph.svg" width="120"/>
+      </td>
+      <td align="center">
+        <br/>
       </td>
     </tr>
   </table>
@@ -71,7 +96,25 @@
 
 <img src="./assets/divider.svg" width="100%"/>
 
-<!-- =================== PACMAN CONTRIBUTIONS =================== -->
+<!-- =================== CODEWARS =================== -->
+<div align="center">
+  <h3>Codewars .... Join me and lets demolish the katas</h3>
+  <a href="https://www.codewars.com/users/try-ronnie">
+    <img src="https://www.codewars.com/users/try-ronnie/badges/large" />
+  </a>
+</div>
+
+<img src="./assets/divider.svg" width="100%"/>
+
+<!-- =================== PAC-MAN CONTRIBUTIONS =================== -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/pacman-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/pacman-light.svg"/>
+    <img src="./assets/pacman-dark.svg" width="95%" alt="Pac-Man contributions"/>
+  </picture>
+  <br/>
+  <sub>👾 ever seen pac-man eatup contributions!</sub>
+</div>
+
+<img src="./assets/divider.svg" width="100%"/>
