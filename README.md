@@ -1,4 +1,4 @@
-Got you — here’s a fully copy-paste-ready, all-in-one cyberpunk README. No explanations, everything in one block, dark/light mode, snake eating contributions, tech stacks, graphs, gameplay GIFs, headers, footer — just paste into your README.md:
+
 
 <p align="center">
   <img src="assets/rgk-logo.svg" alt="RGK Logo"/>
@@ -15,7 +15,7 @@ Got you — here’s a fully copy-paste-ready, all-in-one cyberpunk README. No e
 ```diff
 + Username: Try-Ronnie
 + Focus: High Performance Systems
-+ Stack: JavaScript | Python | Pygame | Flask | SQL
++ Stack: JavaScript | Python | Pygame | Flask | SQL | fastapi | pygame | React |
 + Target: Elite Problem Solving
 + Contributions: 2026 Snake Grid Animation Enabled
 ```
