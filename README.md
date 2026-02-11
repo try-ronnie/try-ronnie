@@ -100,11 +100,12 @@
 <img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/divider.svg" width="100%"/>
 
 <!-- =================== CODEWARS =================== -->
+<!-- NOTE: Codewars badge URL may vary - if the badge doesn't load, the profile link still works -->
 <div align="center">
   <h3>🥋 Codewars Challenges</h3>
   <p>Sharpening my coding skills, one kata at a time. Join me in demolishing the challenges!</p>
-  <a href="https://www.codewars.com/users/try-ronnie">
-    <img src="https://www.codewars.com/users/try-ronnie/badges/large" alt="Codewars Badge"/>
+  <a href="https://www.codewars.com/users/Try-Ronnie">
+    <img src="https://img.shields.io/codewars/users/Try-Ronnie?label=Codewars&style=for-the-badge&color=ba54bd" alt="Codewars Profile"/>
   </a>
 </div>
 
