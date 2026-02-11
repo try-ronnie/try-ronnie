@@ -1,10 +1,11 @@
 <!-- =================== HEADER =================== -->
 <!-- IMPROVEMENT: Added descriptive alt text for accessibility -->
+<!-- FIX: Changed from local paths to GitHub raw URLs for proper rendering on GitHub -->
 <div align="center">
-  <img src="./assets/header.svg" width="100%" alt="Welcome to my GitHub Profile" />
+  <img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/header.svg" width="100%" alt="Welcome to my GitHub Profile" />
 </div>
 
-<img src="./assets/divider.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/divider.svg" width="100%"/>
 
 <!-- =================== PROFILE BADGES =================== -->
 <!-- IMPROVEMENT NOTES:
@@ -33,11 +34,11 @@
   </a>
 </div>
 
-<img src="./assets/divider.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/divider.svg" width="100%"/>
 
 <!-- =================== TECH STACK & GRAPHS =================== -->
 <!-- IMPROVEMENT NOTES:
-  - Replaced external CDN icons with local assets for reliability
+  - Changed to GitHub raw URLs for icons and graphs
   - Added consistent styling with SVG icons
   - Maintained table layout for clean alignment
   - Removed empty cell placeholder
@@ -48,58 +49,58 @@
   <table role="presentation">
     <tr>
       <td align="center" style="padding: 10px;">
-        <img src="./assets/icons/python.svg" width="50" alt="Python"/>
+        <img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/icons/python.svg" width="50" alt="Python"/>
         <br/><strong>Python</strong>
-        <br/><img src="./assets/graphs/python-graph.svg" width="120" alt="Python usage graph"/>
+        <br/><img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/graphs/python-graph.svg" width="120" alt="Python usage graph"/>
       </td>
       <td align="center" style="padding: 10px;">
-        <img src="./assets/icons/fastapi.svg" width="50" alt="FastAPI"/>
+        <img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/icons/fastapi.svg" width="50" alt="FastAPI"/>
         <br/><strong>FastAPI</strong>
-        <br/><img src="./assets/graphs/fastapi-graph.svg" width="120" alt="FastAPI usage graph"/>
+        <br/><img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/graphs/fastapi-graph.svg" width="120" alt="FastAPI usage graph"/>
       </td>
       <td align="center" style="padding: 10px;">
-        <img src="./assets/icons/flask.svg" width="50" alt="Flask"/>
+        <img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/icons/flask.svg" width="50" alt="Flask"/>
         <br/><strong>Flask</strong>
-        <br/><img src="./assets/graphs/flask-graph.svg" width="120" alt="Flask usage graph"/>
+        <br/><img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/graphs/flask-graph.svg" width="120" alt="Flask usage graph"/>
       </td>
       <td align="center" style="padding: 10px;">
-        <img src="./assets/icons/react.svg" width="50" alt="React"/>
+        <img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/icons/react.svg" width="50" alt="React"/>
         <br/><strong>React</strong>
-        <br/><img src="./assets/graphs/react-graph.svg" width="120" alt="React usage graph"/>
+        <br/><img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/graphs/react-graph.svg" width="120" alt="React usage graph"/>
       </td>
       <td align="center" style="padding: 10px;">
-        <img src="./assets/icons/nodejs.svg" width="50" alt="Node.js"/>
+        <img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/icons/nodejs.svg" width="50" alt="Node.js"/>
         <br/><strong>Node.js</strong>
-        <br/><img src="./assets/graphs/nodejs-graph.svg" width="120" alt="Node.js usage graph"/>
+        <br/><img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/graphs/nodejs-graph.svg" width="120" alt="Node.js usage graph"/>
       </td>
     </tr>
     <tr>
       <td align="center" style="padding: 10px;">
-        <img src="./assets/icons/javascript.svg" width="50" alt="JavaScript"/>
+        <img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/icons/javascript.svg" width="50" alt="JavaScript"/>
         <br/><strong>JavaScript</strong>
-        <br/><img src="./assets/graphs/javascript-graph.svg" width="120" alt="JavaScript usage graph"/>
+        <br/><img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/graphs/javascript-graph.svg" width="120" alt="JavaScript usage graph"/>
       </td>
       <td align="center" style="padding: 10px;">
-        <img src="./assets/icons/html.svg" width="50" alt="HTML"/>
+        <img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/icons/html.svg" width="50" alt="HTML"/>
         <br/><strong>HTML</strong>
-        <br/><img src="./assets/graphs/html-graph.svg" width="120" alt="HTML usage graph"/>
+        <br/><img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/graphs/html-graph.svg" width="120" alt="HTML usage graph"/>
       </td>
       <td align="center" style="padding: 10px;">
-        <img src="./assets/icons/css.svg" width="50" alt="CSS"/>
+        <img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/icons/css.svg" width="50" alt="CSS"/>
         <br/><strong>CSS</strong>
-        <br/><img src="./assets/graphs/css-graph.svg" width="120" alt="CSS usage graph"/>
+        <br/><img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/graphs/css-graph.svg" width="120" alt="CSS usage graph"/>
       </td>
       <td align="center" style="padding: 10px;">
-        <img src="./assets/icons/pygame.svg" width="50" alt="Pygame"/>
+        <img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/icons/pygame.svg" width="50" alt="Pygame"/>
         <br/><strong>Pygame</strong>
-        <br/><img src="./assets/graphs/pygame-graph.svg" width="120" alt="Pygame usage graph"/>
+        <br/><img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/graphs/pygame-graph.svg" width="120" alt="Pygame usage graph"/>
       </td>
       <!-- IMPROVEMENT: Removed empty cell placeholder -->
     </tr>
   </table>
 </div>
 
-<img src="./assets/divider.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/divider.svg" width="100%"/>
 
 <!-- =================== GITHUB STATS =================== -->
 <!-- IMPROVEMENT NOTES:
@@ -113,7 +114,7 @@
   </div>
 </div>
 
-<img src="./assets/divider.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/divider.svg" width="100%"/>
 
 <!-- =================== CODEWARS =================== -->
 <!-- IMPROVEMENT NOTES:
@@ -127,29 +128,33 @@
   </a>
 </div>
 
-<img src="./assets/divider.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/divider.svg" width="100%"/>
 
 <!-- =================== PAC-MAN CONTRIBUTIONS =================== -->
 <!-- IMPROVEMENT NOTES:
   - Light/dark mode already correctly implemented using <picture> element
+  - Changed to GitHub raw URLs for proper rendering
   - Added width="95%" for consistent sizing with other sections
   - Added descriptive alt text
   - The picture element properly handles prefers-color-scheme media queries -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/pacman-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="./assets/pacman-light.svg"/>
-    <img src="./assets/pacman-dark.svg" width="95%" alt="Pac-Man eating contributions graph"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/pacman-dark.svg"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/pacman-light.svg"/>
+    <img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/pacman-dark.svg" width="95%" alt="Pac-Man eating contributions graph"/>
   </picture>
   <br/>
   <sub>👾 Ever seen Pac-Man eat up contributions!</sub>
 </div>
 
-<img src="./assets/divider.svg" width="100%"/>
+<img src="https://raw.githubusercontent.com/try-ronnie/try-ronnie/main/assets/divider.svg" width="100%"/>
 
 <!-- =================== DYNAMIC DATA OPPORTUNITIES =================== -->
 <!-- IMPROVEMENT: Added section highlighting where real-time data could replace static placeholders:
   1. Profile badges (Repositories, Followers, Stars) - Use GitHub API
-  2. Tech stack graphs - Use Wime orakat custom analytics
+  2. Tech stack graphs - Use custom analytics or update manually
   3. Codewars badge dynamic - Already, consider adding current rank
   4. Consider adding: GitHub streak stats, current occupation, location with time zone -->
+
+<!-- =================== IMPORTANT - BRANCH NAME =================== -->
+<!-- NOTE: If your default branch is 'master' instead of 'main', replace 'main' with 'master' in all URLs above -->
