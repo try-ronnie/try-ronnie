@@ -18,7 +18,7 @@ Got you — here’s a fully copy-paste-ready, all-in-one cyberpunk README. No e
 + Stack: JavaScript | Python | Pygame | Flask | SQL
 + Target: Elite Problem Solving
 + Contributions: 2026 Snake Grid Animation Enabled
-
+```
 🎮 PACMAN CONSUMING CONTRIBUTIONS
 <p align="center">
   <picture>
@@ -83,4 +83,4 @@ Refactor like a cyberpunk architect
 
 🌈 CYBERPUNK UI / MOTION
 <p align="center"> <img src="assets/neon-motion.svg" width="850"/> </p> <p align="center"> <sub>Extra neon vibes: animated headers, contributions snake, tech stacks glow, footer pulses</sub> </p>
-<p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=0:0D1117,50:1a1b27,100:0D1117&section=footer" /> </p> ```
+<p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=0:0D1117,50:1a1b27,100:0D1117&section=footer" /> </p>
