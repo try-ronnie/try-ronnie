@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/rgk-logo.svg" alt="RGK Logo" />
+  <img src="assets/rgk-logo.svg" alt="RGK Logo"/>
 </p>
 
 <p align="center">
@@ -11,28 +11,51 @@
 ## ⚡ SYSTEM CORE
 
 ```diff
-+ Username: Try-Ronnie
++ Username: try-ronnie
++ Nickname: mzagatas | mzagla
 + Focus: High Performance Systems
-+ Stack: JavaScript | Python | Pygame | Flask | FastAPI | React
++ Stack: JavaScript | Python | Pygame | Flask | FastAPI | React | HTML | CSS
 + Target: Elite Problem Solving
-+ Email: kiiruronnie42@gmail.com
++ Daily Dev Account: kiiruronnie42@gmail.com
 + Phone: 0117967266
-🎮 PACMAN CONSUMING CONTRIBUTIONS
-<p align="center"> <picture> <source media="(prefers-color-scheme: dark)" srcset="assets/pacman-dark.svg"> <source media="(prefers-color-scheme: light)" srcset="assets/pacman-light.svg"> <img alt="Pac-Man contributions" src="assets/pacman-dark.svg"> </picture> </p>
-🐍 INLINE SNAKE (DECORATIVE, DARK MODE)
-<p align="center"> <svg width="600" height="80" viewBox="0 0 600 80" xmlns="http://www.w3.org/2000/svg"> <path d="M10 40 C60 20, 140 60, 200 40 S340 20, 400 40" stroke="#00F5FF" stroke-width="6" fill="transparent"> <animate attributeName="d" dur="2s" repeatCount="indefinite" values="M10 40 C60 20, 140 60, 200 40 S340 20, 400 40; M10 40 C60 60, 140 20, 200 40 S340 60, 400 40; M10 40 C60 20, 140 60, 200 40 S340 20, 400 40" /> </path> <circle cx="10" cy="40" r="6" fill="#FF00C8"> <animateMotion dur="2s" repeatCount="indefinite"> <mpath xlink:href="#snakePath"/> </animateMotion> </circle> </svg> </p>
-🐍 INLINE SNAKE (DECORATIVE, LIGHT MODE)
-<p align="center"> <svg width="600" height="80" viewBox="0 0 600 80" xmlns="http://www.w3.org/2000/svg"> <path d="M10 40 C60 20, 140 60, 200 40 S340 20, 400 40" stroke="#FF00C8" stroke-width="6" fill="transparent"> <animate attributeName="d" dur="2s" repeatCount="indefinite" values="M10 40 C60 20, 140 60, 200 40 S340 20, 400 40; M10 40 C60 60, 140 20, 200 40 S340 60, 400 40; M10 40 C60 20, 140 60, 200 40 S340 20, 400 40" /> </path> <circle cx="10" cy="40" r="6" fill="#00F5FF"> <animateMotion dur="2s" repeatCount="indefinite"> <mpath xlink:href="#snakePath"/> </animateMotion> </circle> </svg> </p>
-📊 NEON STATS MATRIX
-<p align="center"> <img width="48%" src="https://github-readme-stats.vercel.app/api?username=Try-Ronnie&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F5FF&icon_color=FF00C8&text_color=FFFFFF" /> <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=Try-Ronnie&theme=radical&hide_border=true&background=0D1117&ring=9D00FF&fire=FF00C8&currStreakLabel=00F5FF" /> </p>
-🌌 CONTRIBUTION MATRIX 2026
-<p align="center"> <img src="https://ghchart.rshah.org/00F5FF/Try-Ronnie" alt="Try-Ronnie's 2026 GitHub contributions calendar" /> </p> <p align="center"> <sub>🔥 Live contribution grid – automatically updates every day</sub> </p>
-⚔️ TECH ARSENAL
-<p align="center"> <img src="https://skillicons.dev/icons?i=js,python,html,css,react,flask,fastapi,git,github,linux" /> </p>
-🎮 GAME SYSTEMS LAB
-<p align="center"> <img src="assets/gameplay.gif" alt="Game systems showcase" width="850"/> </p>
++ Learning & Growth: Experimentation | Practice | Projects
+🎮 PAC-MAN CONTRIBUTIONS
 
-Highlights:
+<p align="center"> <picture> <source media="(prefers-color-scheme: dark)" srcset="assets/pacman-dark.svg"> <source media="(prefers-color-scheme: light)" srcset="assets/pacman-light.svg"> <img alt="Pac-Man Contributions" src="assets/pacman-dark.svg"> </picture> </p>
+
+🐍 SLITHERING SNAKE (Decorative)
+
+<p align="center"> <svg width="400" height="80" viewBox="0 0 400 80" xmlns="http://www.w3.org/2000/svg"> <path fill="none" stroke="#00F5FF" stroke-width="6"> <animate attributeName="d" dur="2s" repeatCount="indefinite" values="M10 40 Q30 20 50 40 T90 40 T130 40 T170 40 T210 40; M10 40 Q30 60 50 40 T90 40 T130 40 T170 40 T210 40; M10 40 Q30 20 50 40 T90 40 T130 40 T170 40 T210 40"/> </path> <circle cx="10" cy="40" r="6" fill="#FF00C8"> <animateMotion dur="2s" repeatCount="indefinite"> <mpath href="#snakePath"/> </animateMotion> </circle> </svg> </p>
+
+📊 NEON STATS MATRIX
+
+<p align="center"> <img width="48%" src="https://github-readme-stats.vercel.app/api?username=try-ronnie&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F5FF&icon_color=FF00C8&text_color=FFFFFF" /> <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=try-ronnie&theme=radical&hide_border=true&background=0D1117&ring=9D00FF&fire=FF00C8&currStreakLabel=00F5FF" /> </p>
+
+🌌 GITHUB CONTRIBUTION GRID
+
+<p align="center"> <img src="https://ghchart.rshah.org/00F5FF/try-ronnie" alt="GitHub contribution calendar"/> <br><sub>🔥 Live contribution grid – updates daily</sub> </p>
+
+⚔️ TECH ARSENAL
+
+<p align="center"> <!-- GitHub Profile Badges --> ![GitHub Followers](https://img.shields.io/github/followers/try-ronnie?style=social) ![GitHub Top Langs](https://img.shields.io/github/languages/top/try-ronnie?style=for-the-badge&logo=github) ![GitHub Repo Count](https://img.shields.io/github/repos/try-ronnie?style=for-the-badge&logo=github) <!-- Skill Badges -->
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
+
+🎮 GAME SYSTEMS LAB
+
+<p align="center"> <img src="assets/gameplay.gif" width="850" alt="Gameplay Preview"/> </p>
+🔹 Highlights
 
 Structured game loops
 
@@ -42,30 +65,48 @@ Frame-based animation control
 
 Event-driven mechanics
 
-Algorithmic thinking applied
+Physics handling (collision detection & response)
 
-Codewars challenges solved
+AI pathfinding & behavior scripting
+
+UI feedback & animation sequences
+
+Optimized performance workflow
+
+Modular reusable code
+
+Learning by building real systems
 
 🧠 ENGINEERING PHILOSOPHY
 
-Design with intent.
-Build systems.
-Optimize relentlessly.
-Ship clean.
-Focus on readability and maintainability.
-Emphasize performance-critical areas.
-Encourage modular reusable components.
-Document as you code.
+Design with intent
 
-📚 ADDITIONAL INFO
+Build systems
 
-Daily dev account: mzagatas / mzagla
+Optimize relentlessly
 
-Contact: kiiruronnie42@gmail.com
- | 0117967266
+Ship clean
 
-Stack: JavaScript, Python, React, Flask, FastAPI, Pygame, HTML, CSS
+Test often
 
-Coding challenges: Codewars, Algorithmic practice, LeetCode
+Keep performance high
+
+Embrace modularity
+
+Document everything
+
+⚡ CONTACT & CONNECT
+
+Email: kiiruronnie42@gmail.com
+
+Phone: 0117967266
+
+GitHub: try-ronnie
+
+LinkedIn: https://linkedin.com/in/ronniekiiru
+
+Reddit: https://reddit.com/user/mzagla
+
+Twitter: https://twitter.com/mzagas
 
 <p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=0:0D1117,50:1a1b27,100:0D1117&section=footer" /> </p> ```
