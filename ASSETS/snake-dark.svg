@@ -1,0 +1,50 @@
+<svg width="800" height="140" viewBox="0 0 800 140" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="800" height="140" fill="#0d1117"/>
+
+  <g>
+    <!-- Whole snake moves across -->
+    <animateTransform
+      attributeName="transform"
+      type="translate"
+      from="-300 0"
+      to="900 0"
+      dur="8s"
+      repeatCount="indefinite" />
+
+    <!-- Animated Body -->
+    <path stroke="#00f5ff"
+          stroke-width="12"
+          fill="none"
+          stroke-linecap="round">
+
+      <animate attributeName="d"
+        dur="1.2s"
+        repeatCount="indefinite"
+        values="
+        M0 70 Q50 40 100 70 T200 70 T300 70 T400 70;
+        M0 70 Q50 100 100 70 T200 70 T300 70 T400 70;
+        M0 70 Q50 40 100 70 T200 70 T300 70 T400 70
+        " />
+    </path>
+
+    <!-- Head (matches end of path at x=400 y=70) -->
+    <circle cx="400" cy="70" r="14" fill="#00f5ff"/>
+
+    <!-- Eye -->
+    <circle cx="405" cy="65" r="3" fill="#0d1117"/>
+
+    <!-- Tongue -->
+    <line x1="414" y1="70" x2="430" y2="70"
+          stroke="#ff007f"
+          stroke-width="3"
+          stroke-linecap="round">
+      <animate attributeName="opacity"
+               values="1;0;1"
+               dur="0.5s"
+               repeatCount="indefinite"/>
+    </line>
+
+  </g>
+
+</svg>
