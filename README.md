@@ -1,9 +1,5 @@
 <p align="center">
-  <img src="ASSETS/rgk-logo.svg" alt="RGK Logo" width="420" />
-</p>
-
-<p align="center">
-  <img src="ASSETS/hero-banner.svg" alt="Hero Banner" width="98%" />
+  <img src="ASSETS/rgk-logo.svg" alt="RGK Logo" width="560" />
 </p>
 
 <p align="center">
