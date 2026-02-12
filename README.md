@@ -84,12 +84,23 @@ class DeveloperProfile:
 ## GITHUB STATS
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=try-ronnie&show_icons=true&count_private=true&include_all_commits=true&theme=transparent&hide_border=true&bg_color=0D1117&title_color=22D3EE&icon_color=A78BFA&text_color=E6EDF3&cache_seconds=86400" alt="GitHub Stats" />
-  <img width="48%" src="https://streak-stats.demolab.com?user=try-ronnie&theme=transparent&hide_border=true&background=0D1117&ring=22D3EE&fire=34D399&currStreakLabel=A78BFA&dates=E6EDF3" alt="GitHub Streak" />
+  <img width="98%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=try-ronnie&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=22D3EE&text_color=E6EDF3&cache_seconds=21600" alt="GitHub Stats" />
 </p>
 
 <p align="center">
-  <img src="ASSETS/top-langs-panel.svg" alt="Top Languages Panel" />
+  <img width="98%" src="https://streak-stats.demolab.com?user=try-ronnie&hide_border=true&background=0D1117&stroke=1F2937&ring=A78BFA&fire=22D3EE&currStreakLabel=34D399&sideLabels=E6EDF3&dates=9CA3AF" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img width="98%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=try-ronnie&layout=compact&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=E6EDF3&langs_count=8&cache_seconds=21600" alt="Top Languages" />
+</p>
+
+<p align="center">
+  <sub>If GitHub cards throttle temporarily, the live profile badges below remain available.</sub>
+</p>
+
+<p align="center">
+  <img src="ASSETS/neon-flow-separator.svg" alt="Neon Flow Separator" />
 </p>
 
 ---
@@ -221,12 +232,8 @@ def jenga_principle(system):
 </p>
 
 <p align="center">
-  <a href="https://www.codewars.com/users/try-ronnie">
-    <img src="https://img.shields.io/badge/Open-Codewars-A78BFA?style=flat-square&labelColor=0D1117" alt="Open Codewars" />
-  </a>
-  <a href="https://leetcode.com/">
-    <img src="https://img.shields.io/badge/Open-LeetCode-22D3EE?style=flat-square&labelColor=0D1117" alt="Open LeetCode" />
-  </a>
+  <img src="https://img.shields.io/badge/Codewars-Optional-A78BFA?style=flat-square&labelColor=0D1117" alt="Codewars Optional" />
+  <img src="https://img.shields.io/badge/LeetCode-Optional-22D3EE?style=flat-square&labelColor=0D1117" alt="LeetCode Optional" />
 </p>
 
 ---

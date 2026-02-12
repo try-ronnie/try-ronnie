@@ -1,0 +1,38 @@
+<svg width="1200" height="90" viewBox="0 0 1200 90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Snake neon separator">
+  <defs>
+    <linearGradient id="snake" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="45%" stop-color="#a78bfa"/>
+      <stop offset="75%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <g>
+    <path id="snakePath" d="M 20 46 C 120 18, 220 74, 320 46 C 420 18, 520 74, 620 46 C 720 18, 820 74, 920 46 C 1020 18, 1120 74, 1180 46" fill="none" stroke="url(#snake)" stroke-width="5" stroke-linecap="round" filter="url(#glow)">
+      <animate attributeName="d" dur="6.5s" repeatCount="indefinite"
+        values="
+        M 20 46 C 120 18, 220 74, 320 46 C 420 18, 520 74, 620 46 C 720 18, 820 74, 920 46 C 1020 18, 1120 74, 1180 46;
+        M 20 44 C 120 72, 220 16, 320 44 C 420 72, 520 16, 620 44 C 720 72, 820 16, 920 44 C 1020 72, 1120 16, 1180 44;
+        M 20 46 C 120 18, 220 74, 320 46 C 420 18, 520 74, 620 46 C 720 18, 820 74, 920 46 C 1020 18, 1120 74, 1180 46"/>
+    </path>
+
+    <circle r="7" fill="#a78bfa" filter="url(#glow)">
+      <animateMotion dur="6.5s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#snakePath"/>
+      </animateMotion>
+    </circle>
+    <circle r="2" fill="#0d1117">
+      <animateMotion dur="6.5s" repeatCount="indefinite" rotate="auto">
+        <mpath href="#snakePath"/>
+      </animateMotion>
+    </circle>
+  </g>
+</svg>

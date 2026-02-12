@@ -1,17 +1,24 @@
-<svg width="820" height="240" viewBox="0 0 820 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="RGK logo">
+<svg width="820" height="260" viewBox="0 0 820 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="RGK animated logo">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="50%" stop-color="#1a1b27"/>
+      <stop offset="50%" stop-color="#141028"/>
       <stop offset="100%" stop-color="#0d1117"/>
     </linearGradient>
     <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#00f5ff"/>
-      <stop offset="50%" stop-color="#da00ff"/>
-      <stop offset="100%" stop-color="#ff00c8"/>
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="50%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
     </linearGradient>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
+    <filter id="glowSoft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glowHard" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -19,10 +26,29 @@
     </filter>
   </defs>
 
-  <rect x="8" y="8" width="804" height="224" rx="26" fill="url(#bg)" stroke="url(#neon)" stroke-width="3"/>
+  <rect x="8" y="8" width="804" height="244" rx="26" fill="url(#bg)" stroke="url(#neon)" stroke-width="3"/>
 
-  <g filter="url(#glow)">
-    <text x="410" y="126" text-anchor="middle" font-family="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" font-size="94" font-weight="800" fill="url(#neon)">RGK</text>
-    <text x="410" y="168" text-anchor="middle" font-family="'Fira Code', monospace" font-size="24" fill="#00f5ff">try-ronnie // cyberpunk engineer</text>
+  <g>
+    <text x="410" y="128" text-anchor="middle" font-family="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" font-size="96" font-weight="800" fill="url(#neon)" filter="url(#glowSoft)">RGK
+      <animate attributeName="opacity" values="0.92;1;0.78;1;0.88;1" dur="3.8s" repeatCount="indefinite"/>
+    </text>
+    <text x="410" y="128" text-anchor="middle" font-family="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" font-size="96" font-weight="800" fill="url(#neon)" filter="url(#glowHard)">RGK
+      <animate attributeName="opacity" values="0.15;0.5;0.1;0.6;0.15" dur="3.8s" repeatCount="indefinite"/>
+    </text>
+
+    <text x="410" y="174" text-anchor="middle" font-family="'Fira Code', monospace" font-size="21" fill="#c4b5fd">try-ronnie</text>
+
+    <text x="410" y="205" text-anchor="middle" font-family="'Fira Code', monospace" font-size="18" fill="#22d3ee" opacity="1">Cyberpunk Engineer
+      <animate attributeName="opacity" values="1;1;0;0;0;0" keyTimes="0;0.22;0.24;0.98;0.99;1" dur="9s" repeatCount="indefinite"/>
+    </text>
+    <text x="410" y="205" text-anchor="middle" font-family="'Fira Code', monospace" font-size="18" fill="#a78bfa" opacity="0">Game Systems Builder
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.24;0.26;0.48;0.5;1" dur="9s" repeatCount="indefinite"/>
+    </text>
+    <text x="410" y="205" text-anchor="middle" font-family="'Fira Code', monospace" font-size="18" fill="#34d399" opacity="0">Algorithmic Thinker
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5;0.52;0.74;0.76;1" dur="9s" repeatCount="indefinite"/>
+    </text>
+    <text x="410" y="205" text-anchor="middle" font-family="'Fira Code', monospace" font-size="18" fill="#22d3ee" opacity="0">Relentless Builder
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.76;0.78;0.98;1" dur="9s" repeatCount="indefinite"/>
+    </text>
   </g>
 </svg>
