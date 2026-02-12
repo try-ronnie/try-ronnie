@@ -252,5 +252,5 @@ contact = {
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=130&color=0:0D1117,40:111827,75:1F2937,100:0D1117&section=footer" alt="Footer" />
+  <img src="ASSETS/footer-neon.svg" alt="Footer" />
 </p>
