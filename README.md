@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="ASSETS/rgk-logo.svg" alt="RGK Logo" width="240" />
+  <img src="ASSETS/rgk-logo.svg" alt="RGK Logo" width="420" />
 </p>
 
 <p align="center">
-  <img src="ASSETS/hero-banner.svg" alt="Hero Banner" />
+  <img src="ASSETS/hero-banner.svg" alt="Hero Banner" width="98%" />
 </p>
 
 <p align="center">
@@ -12,12 +12,15 @@
   <img src="https://img.shields.io/badge/FOCUS-HIGH%20PERFORMANCE%20SYSTEMS-34D399?style=for-the-badge&labelColor=0D1117" alt="Focus" />
 </p>
 
----
+<p align="center">
+  <img src="ASSETS/neon-flow-separator.svg" alt="Neon Flow Separator" />
+</p>
+
 
 ## SYSTEM CORE
 
 <p align="center">
-  <img src="ASSETS/oop-theme-panel.svg" alt="OOP Theme Panel" />
+  <img src="ASSETS/oop-theme-panel.svg" alt="OOP Theme Panel" width="98%" />
 </p>
 
 <p align="center">
@@ -55,7 +58,10 @@ class DeveloperProfile:
   <img src="https://img.shields.io/badge/TARGET-Elite%20Problem%20Solving-34D399?style=flat-square&labelColor=0D1117" alt="Target" />
 </p>
 
----
+<p align="center">
+  <img src="ASSETS/neon-flow-separator.svg" alt="Neon Flow Separator" />
+</p>
+
 
 ## PAC-MAN CONTRIBUTIONS
 
@@ -67,7 +73,10 @@ class DeveloperProfile:
   </picture>
 </p>
 
----
+<p align="center">
+  <img src="ASSETS/neon-flow-separator.svg" alt="Neon Flow Separator" />
+</p>
+
 
 ## DECORATIVE SNAKE
 
@@ -79,33 +88,16 @@ class DeveloperProfile:
   </picture>
 </p>
 
----
-
-## GITHUB STATS
-
-<p align="center">
-  <img width="98%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=try-ronnie&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&bg_color=0D1117&title_color=A78BFA&icon_color=22D3EE&text_color=E6EDF3&cache_seconds=21600" alt="GitHub Stats" />
-</p>
-
-<p align="center">
-  <img width="98%" src="https://streak-stats.demolab.com?user=try-ronnie&hide_border=true&background=0D1117&stroke=1F2937&ring=A78BFA&fire=22D3EE&currStreakLabel=34D399&sideLabels=E6EDF3&dates=9CA3AF" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img width="98%" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=try-ronnie&layout=compact&hide_border=true&bg_color=0D1117&title_color=A78BFA&text_color=E6EDF3&langs_count=8&cache_seconds=21600" alt="Top Languages" />
-</p>
-
-<p align="center">
-  <sub>If GitHub cards throttle temporarily, the live profile badges below remain available.</sub>
-</p>
-
 <p align="center">
   <img src="ASSETS/neon-flow-separator.svg" alt="Neon Flow Separator" />
 </p>
 
----
 
-## GITHUB PROFILE SIGNALS
+## GITHUB STATS
+
+<p align="center">
+  <img src="ASSETS/github-stats-core.svg" alt="GitHub Stats Core" width="98%" />
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/github/followers/try-ronnie?style=for-the-badge&logo=github&label=Followers&labelColor=0D1117&color=A78BFA" alt="Followers" />
@@ -114,11 +106,19 @@ class DeveloperProfile:
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Ftry-ronnie&query=%24.public_gists&label=Public%20Gists&style=flat-square&labelColor=0D1117&color=A78BFA" alt="Public Gists" />
-  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Ftry-ronnie&query=%24.type&label=Account%20Type&style=flat-square&labelColor=0D1117&color=22D3EE" alt="Account Type" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Ftry-ronnie&query=%24.public_gists&label=Public%20Gists&style=for-the-badge&labelColor=0D1117&color=A78BFA" alt="Public Gists" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Ftry-ronnie&query=%24.type&label=Account%20Type&style=for-the-badge&labelColor=0D1117&color=22D3EE" alt="Account Type" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Ftry-ronnie&query=%24.created_at&label=GitHub%20Since&style=for-the-badge&labelColor=0D1117&color=34D399" alt="GitHub Since" />
 </p>
 
----
+<p align="center">
+  <sub>Using a local core panel + GitHub API badges to avoid dead stats cards.</sub>
+</p>
+
+<p align="center">
+  <img src="ASSETS/neon-flow-separator.svg" alt="Neon Flow Separator" />
+</p>
+
 
 ## TECH ARSENAL
 
@@ -141,12 +141,15 @@ class TechStack:
   <img src="https://img.shields.io/badge/FastAPI-0D1117?style=for-the-badge&logo=fastapi&logoColor=22D3EE" alt="FastAPI" />
 </p>
 
----
+<p align="center">
+  <img src="ASSETS/neon-flow-separator.svg" alt="Neon Flow Separator" />
+</p>
+
 
 ## GAME SYSTEMS LAB
 
 <p align="center">
-  <img src="ASSETS/oop-theme-panel.svg" alt="OOP Theme Panel" />
+  <img src="ASSETS/oop-theme-panel.svg" alt="OOP Theme Panel" width="98%" />
 </p>
 
 <p align="center">
@@ -180,7 +183,10 @@ class GameSystems:
   <img src="https://img.shields.io/badge/OPTIMIZATION-Relentless-34D399?style=for-the-badge&labelColor=0D1117" alt="Optimization" />
 </p>
 
----
+<p align="center">
+  <img src="ASSETS/neon-flow-separator.svg" alt="Neon Flow Separator" />
+</p>
+
 
 ## ENGINEERING PHILOSOPHY
 
@@ -205,12 +211,15 @@ def engineering_philosophy():
 + violet -> precision
 ```
 
----
+<p align="center">
+  <img src="ASSETS/neon-flow-separator.svg" alt="Neon Flow Separator" />
+</p>
+
 
 ## JENGA PRINCIPLE
 
 <p align="center">
-  <img src="ASSETS/jenga-systems.svg" alt="Jenga Systems Principle" />
+  <img src="ASSETS/jenga-systems.svg" alt="Jenga Systems Principle" width="98%" />
 </p>
 
 ```python
@@ -222,7 +231,10 @@ def jenga_principle(system):
     return "Design independent layers with explicit contracts."
 ```
 
----
+<p align="center">
+  <img src="ASSETS/neon-flow-separator.svg" alt="Neon Flow Separator" />
+</p>
+
 
 ## COMPETITIVE CODING
 
@@ -232,19 +244,30 @@ def jenga_principle(system):
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Codewars-Optional-A78BFA?style=flat-square&labelColor=0D1117" alt="Codewars Optional" />
-  <img src="https://img.shields.io/badge/LeetCode-Optional-22D3EE?style=flat-square&labelColor=0D1117" alt="LeetCode Optional" />
+  <a href="https://www.codewars.com/users/Ronnie.Codes.Too.Much">
+    <img src="https://img.shields.io/badge/Open-Codewars-A78BFA?style=flat-square&labelColor=0D1117" alt="Open Codewars" />
+  </a>
+  <a href="https://leetcode.com/u/ronnie-is-a-gik/">
+    <img src="https://img.shields.io/badge/Open-LeetCode-22D3EE?style=flat-square&labelColor=0D1117" alt="Open LeetCode" />
+  </a>
 </p>
 
----
+<p align="center">
+  <img src="ASSETS/neon-flow-separator.svg" alt="Neon Flow Separator" />
+</p>
+
 
 ## CONTACT AND CONNECT
 
 ```python
 contact = {
     "email": "kiiruronnie42@gmail.com",
-    "phone": "0117967266",
-    "github": "https://github.com/try-ronnie"
+    "whatsapp": "0797694892",
+    "github": "https://github.com/try-ronnie",
+    "daily_dev": "https://app.daily.dev/kiiru",
+    "instagram": "https://instagram.com/st.o.rm_me/",
+    "reddit": "https://www.reddit.com/user/Independent-Law-5397/",
+    "stackoverflow": "https://stackoverflow.com/users/30851320/kiiru-ronnie"
 }
 ```
 
@@ -252,12 +275,52 @@ contact = {
   <a href="mailto:kiiruronnie42@gmail.com">
     <img src="https://img.shields.io/badge/EMAIL-kiiruronnie42%40gmail.com-A78BFA?style=for-the-badge&labelColor=0D1117" alt="Email" />
   </a>
-  <img src="https://img.shields.io/badge/PHONE-0117967266-22D3EE?style=for-the-badge&labelColor=0D1117" alt="Phone" />
   <a href="https://github.com/try-ronnie">
     <img src="https://img.shields.io/badge/GITHUB-try--ronnie-34D399?style=for-the-badge&labelColor=0D1117" alt="GitHub" />
   </a>
 </p>
 
 <p align="center">
-  <img src="ASSETS/footer-neon.svg" alt="Footer" />
+  <a href="https://app.daily.dev/kiiru">
+    <img src="https://img.shields.io/badge/Daily.dev-kiiru-22D3EE?style=for-the-badge&labelColor=0D1117" alt="Daily.dev" />
+  </a>
+  <a href="https://instagram.com/st.o.rm_me/">
+    <img src="https://img.shields.io/badge/Instagram-@st.o.rm_me-A78BFA?style=for-the-badge&labelColor=0D1117" alt="Instagram" />
+  </a>
+  <a href="https://www.reddit.com/user/Independent-Law-5397/">
+    <img src="https://img.shields.io/badge/Reddit-Independent--Law--5397-34D399?style=for-the-badge&labelColor=0D1117" alt="Reddit" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://stackoverflow.com/users/30851320/kiiru-ronnie">
+    <img src="https://img.shields.io/badge/Stack%20Overflow-kiiru--ronnie-A78BFA?style=for-the-badge&labelColor=0D1117" alt="Stack Overflow" />
+  </a>
+  <a href="https://wa.me/254797694892">
+    <img src="https://img.shields.io/badge/WhatsApp-0797694892-22D3EE?style=for-the-badge&labelColor=0D1117" alt="WhatsApp" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="ASSETS/neon-flow-separator.svg" alt="Neon Flow Separator" />
+</p>
+
+## COD MOBILE
+
+```python
+class CODMobileTheme:
+    def __init__(self):
+        self.mode = "Ranked + Multiplayer"
+        self.style = "Aggressive positioning, controlled recoil, fast decisions"
+        self.focus = ["Map awareness", "Utility timing", "Winning gunfights"]
+```
+
+<p align="center">
+  <img src="https://img.shields.io/badge/CODM-Player-A78BFA?style=for-the-badge&labelColor=0D1117" alt="CODM Player" />
+  <img src="https://img.shields.io/badge/STYLE-Objective%20Pressure-22D3EE?style=for-the-badge&labelColor=0D1117" alt="Objective Pressure" />
+  <img src="https://img.shields.io/badge/LOADOUT_THEME-Neon%20Tactical-34D399?style=for-the-badge&labelColor=0D1117" alt="Loadout Theme" />
+</p>
+
+<p align="center">
+  <img src="ASSETS/footer-neon.svg" alt="Footer" width="98%" />
 </p>
