@@ -301,22 +301,6 @@ contact = {
   <img src="ASSETS/neon-flow-separator.svg" alt="Neon Flow Separator" />
 </p>
 
-## COD MOBILE
-
-```python
-class CODMobileTheme:
-    def __init__(self):
-        self.mode = "Ranked + Multiplayer"
-        self.style = "Aggressive positioning, controlled recoil, fast decisions"
-        self.focus = ["Map awareness", "Utility timing", "Winning gunfights"]
-```
-
-<p align="center">
-  <img src="https://img.shields.io/badge/CODM-Player-A78BFA?style=for-the-badge&labelColor=0D1117" alt="CODM Player" />
-  <img src="https://img.shields.io/badge/STYLE-Objective%20Pressure-22D3EE?style=for-the-badge&labelColor=0D1117" alt="Objective Pressure" />
-  <img src="https://img.shields.io/badge/LOADOUT_THEME-Neon%20Tactical-34D399?style=for-the-badge&labelColor=0D1117" alt="Loadout Theme" />
-</p>
-
 <p align="center">
   <img src="ASSETS/footer-neon.svg" alt="Footer" width="98%" />
 </p>
