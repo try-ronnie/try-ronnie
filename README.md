@@ -59,7 +59,7 @@ class DeveloperProfile:
 </p>
 
 
-## PAC-MAN CONTRIBUTIONS
+## WHO DOESN'T LOVE PAC-MAN
 
 <p align="center">
   <picture>
@@ -74,7 +74,7 @@ class DeveloperProfile:
 </p>
 
 
-## DECORATIVE SNAKE
+## PYTHON ... GET IT 
 
 <p align="center">
   <picture>
@@ -105,10 +105,6 @@ class DeveloperProfile:
   <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Ftry-ronnie&query=%24.public_gists&label=Public%20Gists&style=for-the-badge&labelColor=0D1117&color=A78BFA" alt="Public Gists" />
   <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Ftry-ronnie&query=%24.type&label=Account%20Type&style=for-the-badge&labelColor=0D1117&color=22D3EE" alt="Account Type" />
   <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Ftry-ronnie&query=%24.created_at&label=GitHub%20Since&style=for-the-badge&labelColor=0D1117&color=34D399" alt="GitHub Since" />
-</p>
-
-<p align="center">
-  <sub>Using a local core panel + GitHub API badges to avoid dead stats cards.</sub>
 </p>
 
 <p align="center">
