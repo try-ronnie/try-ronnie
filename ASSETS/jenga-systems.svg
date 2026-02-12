@@ -1,0 +1,36 @@
+<svg width="1100" height="180" viewBox="0 0 1100 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Jenga architecture principle">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="50%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="6" y="6" width="1088" height="168" rx="18" fill="url(#bg)" stroke="url(#line)" stroke-width="2"/>
+  <text x="24" y="38" font-family="'Fira Code', monospace" font-size="22" fill="#a78bfa">Jenga Principle for Software Design</text>
+  <text x="24" y="64" font-family="'Fira Code', monospace" font-size="14" fill="#22d3ee">Strong systems are made of replaceable blocks, not brittle chains.</text>
+
+  <g>
+    <rect x="70" y="106" width="140" height="20" rx="4" fill="#34d399"/>
+    <rect x="220" y="106" width="140" height="20" rx="4" fill="#a78bfa"/>
+    <rect x="370" y="106" width="140" height="20" rx="4" fill="#22d3ee"/>
+
+    <rect x="145" y="84" width="140" height="20" rx="4" fill="#22d3ee"/>
+    <rect x="295" y="84" width="140" height="20" rx="4" fill="#34d399"/>
+    <rect x="445" y="84" width="140" height="20" rx="4" fill="#a78bfa"/>
+
+    <rect x="220" y="62" width="140" height="20" rx="4" fill="#a78bfa"/>
+    <rect x="370" y="62" width="140" height="20" rx="4" fill="#22d3ee"/>
+    <rect x="520" y="62" width="140" height="20" rx="4" fill="#34d399"/>
+  </g>
+
+  <text x="710" y="80" font-family="'Fira Code', monospace" font-size="14" fill="#e6edf3">Layer Contracts</text>
+  <text x="710" y="102" font-family="'Fira Code', monospace" font-size="14" fill="#e6edf3">Low Coupling</text>
+  <text x="710" y="124" font-family="'Fira Code', monospace" font-size="14" fill="#e6edf3">Safe Refactors</text>
+  <text x="710" y="146" font-family="'Fira Code', monospace" font-size="14" fill="#e6edf3">Fault Isolation</text>
+</svg>

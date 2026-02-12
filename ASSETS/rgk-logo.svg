@@ -1,0 +1,28 @@
+<svg width="820" height="240" viewBox="0 0 820 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="RGK logo">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="50%" stop-color="#1a1b27"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00f5ff"/>
+      <stop offset="50%" stop-color="#da00ff"/>
+      <stop offset="100%" stop-color="#ff00c8"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="8" y="8" width="804" height="224" rx="26" fill="url(#bg)" stroke="url(#neon)" stroke-width="3"/>
+
+  <g filter="url(#glow)">
+    <text x="410" y="126" text-anchor="middle" font-family="'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" font-size="94" font-weight="800" fill="url(#neon)">RGK</text>
+    <text x="410" y="168" text-anchor="middle" font-family="'Fira Code', monospace" font-size="24" fill="#00f5ff">try-ronnie // cyberpunk engineer</text>
+  </g>
+</svg>

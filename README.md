@@ -1,20 +1,29 @@
 <p align="center">
-  <img src="ASSETS/rgk-logo.svg" alt="RGK Logo" width="220" />
+  <img src="ASSETS/rgk-logo.svg" alt="RGK Logo" width="240" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=2600&pause=900&color=00F5FF&center=true&vCenter=true&width=950&lines=Ronnie+Gikandi;Cyberpunk+Engineer;Game+Systems+Builder;Algorithmic+Thinker;Relentless+Builder" alt="Typing Banner" />
+  <img src="ASSETS/hero-banner.svg" alt="Hero Banner" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/THEME-CYBERPUNK-DA00FF?style=for-the-badge&labelColor=0D1117" alt="Theme" />
-  <img src="https://img.shields.io/badge/STATUS-LIVE%20PROFILE-00F5FF?style=for-the-badge&labelColor=0D1117" alt="Status" />
-  <img src="https://img.shields.io/badge/FOCUS-HIGH%20PERFORMANCE%20SYSTEMS-FF00C8?style=for-the-badge&labelColor=0D1117" alt="Focus" />
+  <img src="https://img.shields.io/badge/THEME-NEON%20SLATE-A78BFA?style=for-the-badge&labelColor=0D1117" alt="Theme" />
+  <img src="https://img.shields.io/badge/STATUS-LIVE%20PROFILE-22D3EE?style=for-the-badge&labelColor=0D1117" alt="Status" />
+  <img src="https://img.shields.io/badge/FOCUS-HIGH%20PERFORMANCE%20SYSTEMS-34D399?style=for-the-badge&labelColor=0D1117" alt="Focus" />
 </p>
 
 ---
 
 ## SYSTEM CORE
+
+<p align="center">
+  <img src="ASSETS/oop-theme-panel.svg" alt="OOP Theme Panel" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/OOP_PANEL-SYSTEM_CORE-A78BFA?style=for-the-badge&labelColor=0D1117" alt="System Core Panel" />
+  <img src="https://img.shields.io/badge/COLOR_MODE-Slate_+_Cyan_+_Mint-22D3EE?style=for-the-badge&labelColor=0D1117" alt="Color Mode" />
+</p>
 
 ```python
 class DeveloperProfile:
@@ -29,12 +38,21 @@ class DeveloperProfile:
         self.target = "Elite Problem Solving"
         self.daily_dev_account = "kiiruronnie42@gmail.com"
         self.phone = "0117967266"
+
+    def mission(self):
+        return "Design and deliver reliable, high-performance software systems."
+```
+
+```diff
++ PROFILE STATUS  : ACTIVE
++ ARCHITECTURE    : OOP + Modular
++ OPERATING MODE  : Production Ready
 ```
 
 <p align="center">
-  <img src="https://img.shields.io/badge/USERNAME-try--ronnie-DA00FF?style=flat-square&labelColor=0D1117" alt="Username" />
-  <img src="https://img.shields.io/badge/NICKNAME-mzagatas%20%7C%20mzagla-00F5FF?style=flat-square&labelColor=0D1117" alt="Nickname" />
-  <img src="https://img.shields.io/badge/TARGET-Elite%20Problem%20Solving-FF00C8?style=flat-square&labelColor=0D1117" alt="Target" />
+  <img src="https://img.shields.io/badge/USERNAME-try--ronnie-A78BFA?style=flat-square&labelColor=0D1117" alt="Username" />
+  <img src="https://img.shields.io/badge/NICKNAME-mzagatas%20%7C%20mzagla-22D3EE?style=flat-square&labelColor=0D1117" alt="Nickname" />
+  <img src="https://img.shields.io/badge/TARGET-Elite%20Problem%20Solving-34D399?style=flat-square&labelColor=0D1117" alt="Target" />
 </p>
 
 ---
@@ -61,33 +79,32 @@ class DeveloperProfile:
   </picture>
 </p>
 
+---
+
+## GITHUB STATS
+
 <p align="center">
-  <sub>Decorative system stream: neon slither mode active.</sub>
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=try-ronnie&show_icons=true&count_private=true&include_all_commits=true&theme=transparent&hide_border=true&bg_color=0D1117&title_color=22D3EE&icon_color=A78BFA&text_color=E6EDF3&cache_seconds=86400" alt="GitHub Stats" />
+  <img width="48%" src="https://streak-stats.demolab.com?user=try-ronnie&theme=transparent&hide_border=true&background=0D1117&ring=22D3EE&fire=34D399&currStreakLabel=A78BFA&dates=E6EDF3" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img src="ASSETS/top-langs-panel.svg" alt="Top Languages Panel" />
 </p>
 
 ---
 
-## NEON STATS MATRIX
+## GITHUB PROFILE SIGNALS
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=try-ronnie&show_icons=true&count_private=true&include_all_commits=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F5FF&icon_color=FF00C8&text_color=E6EDF3" alt="GitHub Stats" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=try-ronnie&theme=radical&hide_border=true&background=0D1117&ring=00F5FF&fire=FF00C8&currStreakLabel=DA00FF&dates=E6EDF3" alt="GitHub Streak" />
+  <img src="https://img.shields.io/github/followers/try-ronnie?style=for-the-badge&logo=github&label=Followers&labelColor=0D1117&color=A78BFA" alt="Followers" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Ftry-ronnie&query=%24.public_repos&label=Public%20Repos&style=for-the-badge&labelColor=0D1117&color=22D3EE" alt="Public Repos" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Ftry-ronnie&query=%24.following&label=Following&style=for-the-badge&labelColor=0D1117&color=34D399" alt="Following" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=try-ronnie&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=DA00FF&text_color=E6EDF3" alt="Top Languages" />
-</p>
-
----
-
-## CONTRIBUTION GRID
-
-<p align="center">
-  <img src="https://ghchart.rshah.org/00F5FF/try-ronnie" alt="GitHub contribution calendar" />
-</p>
-
-<p align="center">
-  <sub>Live contribution grid. Auto-refreshes with your daily commits.</sub>
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Ftry-ronnie&query=%24.public_gists&label=Public%20Gists&style=flat-square&labelColor=0D1117&color=A78BFA" alt="Public Gists" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Ftry-ronnie&query=%24.type&label=Account%20Type&style=flat-square&labelColor=0D1117&color=22D3EE" alt="Account Type" />
 </p>
 
 ---
@@ -110,12 +127,21 @@ class TechStack:
   <img src="https://img.shields.io/badge/JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
   <img src="https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python" />
   <img src="https://img.shields.io/badge/React-0D1117?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/FastAPI-0D1117?style=for-the-badge&logo=fastapi&logoColor=00F5FF" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/FastAPI-0D1117?style=for-the-badge&logo=fastapi&logoColor=22D3EE" alt="FastAPI" />
 </p>
 
 ---
 
 ## GAME SYSTEMS LAB
+
+<p align="center">
+  <img src="ASSETS/oop-theme-panel.svg" alt="OOP Theme Panel" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/OOP_PANEL-GAME_SYSTEMS-A78BFA?style=for-the-badge&labelColor=0D1117" alt="Game Systems Panel" />
+  <img src="https://img.shields.io/badge/ENGINE-Structured_Runtime-22D3EE?style=for-the-badge&labelColor=0D1117" alt="Runtime" />
+</p>
 
 ```python
 class GameSystems:
@@ -125,34 +151,64 @@ class GameSystems:
         self.ai = "Pathfinding and behavior scripting"
         self.ui = "Feedback and animation sequences"
         self.state = "Clean object-oriented architecture"
+
+    def quality_gate(self):
+        return ["readable", "modular", "testable", "performant"]
+```
+
+```diff
++ LOOP ENGINE     : Structured
++ PHYSICS LAYER   : Collision-Ready
++ AI LAYER        : Pathfinding + Behaviors
++ INTEGRITY MODEL : Jenga Principle
 ```
 
 <p align="center">
-  <img src="https://img.shields.io/badge/BUILD_MODE-Game%20Systems-DA00FF?style=for-the-badge&labelColor=0D1117" alt="Build Mode" />
-  <img src="https://img.shields.io/badge/ENGINE_STYLE-OOP%20%2B%20Modular-00F5FF?style=for-the-badge&labelColor=0D1117" alt="Engine Style" />
-  <img src="https://img.shields.io/badge/OPTIMIZATION-Relentless-FF00C8?style=for-the-badge&labelColor=0D1117" alt="Optimization" />
+  <img src="https://img.shields.io/badge/BUILD_MODE-Game%20Systems-A78BFA?style=for-the-badge&labelColor=0D1117" alt="Build Mode" />
+  <img src="https://img.shields.io/badge/ENGINE_STYLE-OOP%20%2B%20Modular-22D3EE?style=for-the-badge&labelColor=0D1117" alt="Engine Style" />
+  <img src="https://img.shields.io/badge/OPTIMIZATION-Relentless-34D399?style=for-the-badge&labelColor=0D1117" alt="Optimization" />
 </p>
 
 ---
 
 ## ENGINEERING PHILOSOPHY
 
+<p align="center">
+  <img src="https://img.shields.io/badge/OOP_PANEL-ENGINEERING_PHILOSOPHY-A78BFA?style=for-the-badge&labelColor=0D1117" alt="Philosophy Panel" />
+</p>
+
 ```python
 def engineering_philosophy():
     design("with intent")
-    build("systems")
-    optimize("relentlessly")
-    ship("clean")
-    test("often")
-    maintain("high performance")
+    build("for resilience")
+    optimize("where it matters")
+    ship("clean, maintainable code")
+    test("critical paths")
+    maintain("performance budgets")
     embrace("modularity")
 ```
 
+```diff
++ cyan   -> clarity
++ mint   -> stability
++ violet -> precision
+```
+
+---
+
+## JENGA PRINCIPLE
+
+<p align="center">
+  <img src="ASSETS/jenga-systems.svg" alt="Jenga Systems Principle" />
+</p>
+
 ```python
-# neon modes
-# cyan  -> clarity
-# pink  -> aggression
-# violet-> precision
+def jenga_principle(system):
+    """
+    Every block should be replaceable without collapsing the tower.
+    If one module failure breaks everything, coupling is too high.
+    """
+    return "Design independent layers with explicit contracts."
 ```
 
 ---
@@ -160,16 +216,16 @@ def engineering_philosophy():
 ## COMPETITIVE CODING
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Codewars-Profile-B1361E?style=for-the-badge&logo=codewars&logoColor=white" alt="Codewars" />
-  <img src="https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
+  <img src="https://img.shields.io/badge/Codewars-Profile-A78BFA?style=for-the-badge&logo=codewars&logoColor=white&labelColor=0D1117" alt="Codewars" />
+  <img src="https://img.shields.io/badge/LeetCode-Profile-22D3EE?style=for-the-badge&logo=leetcode&logoColor=0D1117&labelColor=0D1117" alt="LeetCode" />
 </p>
 
 <p align="center">
   <a href="https://www.codewars.com/users/try-ronnie">
-    <img src="https://img.shields.io/badge/Open-Codewars-DA00FF?style=flat-square&labelColor=0D1117" alt="Open Codewars" />
+    <img src="https://img.shields.io/badge/Open-Codewars-A78BFA?style=flat-square&labelColor=0D1117" alt="Open Codewars" />
   </a>
   <a href="https://leetcode.com/">
-    <img src="https://img.shields.io/badge/Open-LeetCode-00F5FF?style=flat-square&labelColor=0D1117" alt="Open LeetCode" />
+    <img src="https://img.shields.io/badge/Open-LeetCode-22D3EE?style=flat-square&labelColor=0D1117" alt="Open LeetCode" />
   </a>
 </p>
 
@@ -187,27 +243,14 @@ contact = {
 
 <p align="center">
   <a href="mailto:kiiruronnie42@gmail.com">
-    <img src="https://img.shields.io/badge/EMAIL-kiiruronnie42%40gmail.com-FF00C8?style=for-the-badge&labelColor=0D1117" alt="Email" />
+    <img src="https://img.shields.io/badge/EMAIL-kiiruronnie42%40gmail.com-A78BFA?style=for-the-badge&labelColor=0D1117" alt="Email" />
   </a>
-  <img src="https://img.shields.io/badge/PHONE-0117967266-00F5FF?style=for-the-badge&labelColor=0D1117" alt="Phone" />
+  <img src="https://img.shields.io/badge/PHONE-0117967266-22D3EE?style=for-the-badge&labelColor=0D1117" alt="Phone" />
   <a href="https://github.com/try-ronnie">
-    <img src="https://img.shields.io/badge/GITHUB-try--ronnie-DA00FF?style=for-the-badge&labelColor=0D1117" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GITHUB-try--ronnie-34D399?style=for-the-badge&labelColor=0D1117" alt="GitHub" />
   </a>
 </p>
 
----
-
-## SYSTEM STATUS
-
-```python
-if __name__ == "__main__":
-    print("Profile mode: ACTIVE")
-    print("Theme: CYBERPUNK")
-    print("Animations: Pac-Man + Snake")
-    print("Telemetry: GitHub Stats + Streak + Contributions")
-    print("State: READY")
-```
-
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=170&text=RUNNING%20IN%20NEON%20MODE&fontAlign=50&fontAlignY=35&fontSize=24&color=0:0D1117,30:1A1B27,70:2A0F4F,100:0D1117&fontColor=00F5FF&section=footer" alt="Footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=130&color=0:0D1117,40:111827,75:1F2937,100:0D1117&section=footer" alt="Footer" />
 </p>

@@ -1,0 +1,35 @@
+<svg width="900" height="210" viewBox="0 0 900 210" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Top languages panel">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#1a1b27"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00f5ff"/>
+      <stop offset="100%" stop-color="#00a6ff"/>
+    </linearGradient>
+    <linearGradient id="pink" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff00c8"/>
+      <stop offset="100%" stop-color="#da00ff"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="6" y="6" width="888" height="198" rx="16" fill="url(#bg)" stroke="#da00ff" stroke-width="2"/>
+  <text x="28" y="38" font-family="'Fira Code', monospace" font-size="24" fill="#00f5ff">Top Languages Focus</text>
+
+  <text x="28" y="74" font-family="'Fira Code', monospace" font-size="16" fill="#e6edf3">Python</text>
+  <rect x="150" y="60" width="690" height="16" rx="8" fill="#202a38"/>
+  <rect x="150" y="60" width="414" height="16" rx="8" fill="url(#cyan)"/>
+
+  <text x="28" y="110" font-family="'Fira Code', monospace" font-size="16" fill="#e6edf3">JavaScript</text>
+  <rect x="150" y="96" width="690" height="16" rx="8" fill="#202a38"/>
+  <rect x="150" y="96" width="310" height="16" rx="8" fill="url(#pink)"/>
+
+  <text x="28" y="146" font-family="'Fira Code', monospace" font-size="16" fill="#e6edf3">HTML/CSS</text>
+  <rect x="150" y="132" width="690" height="16" rx="8" fill="#202a38"/>
+  <rect x="150" y="132" width="207" height="16" rx="8" fill="url(#cyan)"/>
+
+  <text x="28" y="182" font-family="'Fira Code', monospace" font-size="16" fill="#e6edf3">Flask/FastAPI/React</text>
+  <rect x="230" y="168" width="610" height="16" rx="8" fill="#202a38"/>
+  <rect x="230" y="168" width="268" height="16" rx="8" fill="url(#pink)"/>
+</svg>
