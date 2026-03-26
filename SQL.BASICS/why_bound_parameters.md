@@ -55,3 +55,25 @@ Bound parameters are essential because they:
 - **Write cleaner, more maintainable code**
 
 This is why modern ORMs and database libraries always use parameterized queries instead of string interpolation.
+
+
+### TRAILING COMMAS IN BOUND PARAMETERS AND WHY TO USE IT WHEN GIVING OUT A VALUE
+Yes! The trailing comma is **required** - it's not optional decoration.
+
+**Why `(self.name,)` instead of `(self.name)`:**
+
+- `(self.name)` → This is just the string wrapped in parentheses for grouping. It's **NOT a tuple**. Python treats it as just the string `"FRUITS"`.
+
+- `(self.name,)` → This **IS a tuple** with one element. The comma tells Python "this is a tuple."
+
+**Why does this matter?**
+
+When you pass `(self.name)` (without the comma) to `CURSOR.execute()`, SQLite iterates through it to get the parameters. Since it's just a string, Python iterates over each **character** - so `"FRUITS"` becomes 6 separate bindings: `'F', 'R', 'U', 'I', 'T', 'S'`.
+
+That's why you got the error: *"The current statement uses 1, and there are 6 supplied"* - because each character became a separate parameter!
+
+**The rule:**
+- One parameter: `(self.name,)` ✓
+- Multiple parameters: `(self.name, self.category_id)` ✓
+
+The comma is what tells Python to create a tuple instead of just grouping the expression.

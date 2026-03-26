@@ -48,4 +48,43 @@ PRAGMA foreign_keys = ON;
 
 This is likely why your foreign key isn't enforcing constraints yet—SQLite needs this pragma enabled first.
 
-Does this help clarify the "why" behind foreign keys?
+## Where to Turn On Foreign Keys
+
+No module to import! It's just a SQL command (called a **PRAGMA**) that you execute through your existing cursor.
+
+### Step 1: Add to your `__init__.py` or database setup
+
+In your [`LEARNING.SQL.OPERATIONS/n+1./lib/__init__.py`](LEARNING.SQL.OPERATIONS/n+1./lib/__init__.py) or wherever you create your connection, add this line AFTER establishing the connection:
+
+```python
+CURSOR.execute("PRAGMA foreign_keys = ON;")
+```
+
+### Step 2: That's it!
+
+You only need to do it **once** after connecting to the database. Here's the typical flow:
+
+```python
+import sqlite3
+
+CONN = sqlite3.connect("groceries.db")
+CURSOR = CONN.cursor()
+
+# Enable foreign keys - THIS IS THE KEY LINE
+CURSOR.execute("PRAGMA foreign_keys = ON;")
+
+# Now your foreign key constraints will be enforced!
+```
+
+### What is a PRAGMA?
+
+A PRAGMA is a SQLite-specific command that modifies database behavior. Think of it as a "settings toggle" for SQLite.
+
+- `PRAGMA foreign_keys = ON` → Turns on foreign key enforcement
+- `PRAGMA foreign_keys = OFF` → Turns it off (default state)
+
+### Why is it off by default?
+
+For historical reasons—SQLite was originally designed for simple embedded use cases and didn't enforce foreign keys by default. They added the feature later but kept it off for backward compatibility.
+
+**Bottom line**: Just add `CURSOR.execute("PRAGMA foreign_keys = ON;")` after your connection is created, and your `FOREIGN KEY` constraints will start working!

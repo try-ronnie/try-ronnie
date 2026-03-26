@@ -17,5 +17,10 @@ def debug_database ():
     Item.create_save('APPLE',1)
     Item.create_save('MILK',2)
     Item.create_save('CABBAGE',3)
-    Item.create_save()
+    Item.create_save('nduma' , 3)
+
+debug_database()
+ipdb.set_trace()
+
+
 

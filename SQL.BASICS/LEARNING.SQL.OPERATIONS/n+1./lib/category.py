@@ -21,10 +21,9 @@ class Category:
     #create a method that persits instances to the table made
     def save (self):
         '''PERSITS AN INSTANCE OF THE CATEGORY CLASS TO THE TABLE'''
-        sql = '''
-            INSERT INTO categories (name) VALUES (?);
-            '''
-        CURSOR.execute(sql(self.name)) # bound parameter to ?
+        sql = '''INSERT INTO categories (name) VALUES (?);'''
+        
+        CURSOR.execute(sql, (self.name,)) # bound parameter to ?, remember to leave a trailing comma so python can know its a tuple not a string to ierate over 
         self.id = CURSOR.lastrowid  # gives the id to the instance 
         CONN.commit()
 
@@ -40,7 +39,8 @@ class Category:
     
 
     # create a method to drop the whole table 
-    def drop_table (cls):
+    @classmethod
+    def drop_table(cls):
         ''' DROP THE TABLE CATEGORY'''
         sql = '''
             DROP TABLE IF EXISTS categories ;
