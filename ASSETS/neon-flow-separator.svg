@@ -22,12 +22,6 @@
     <animate attributeName="stroke" values="#a78bfa;#22d3ee;#34d399;#c084fc;#a78bfa" dur="6.5s" repeatCount="indefinite"/>
   </path>
 
-  <circle r="7" fill="#22d3ee" filter="url(#glow)">
-    <animate attributeName="fill" values="#22d3ee;#34d399;#c084fc;#22d3ee" dur="6.5s" repeatCount="indefinite"/>
-    <animateMotion dur="6.5s" repeatCount="indefinite" rotate="auto">
-      <mpath href="#sepSnake"/>
-    </animateMotion>
-  </circle>
 
   <line x1="20" y1="82" x2="1180" y2="82" stroke="#22d3ee" stroke-width="2.5" opacity="0.8" filter="url(#glow)">
     <animate attributeName="stroke" values="#22d3ee;#c084fc;#34d399;#8b5cf6;#22d3ee" dur="7.2s" repeatCount="indefinite"/>
