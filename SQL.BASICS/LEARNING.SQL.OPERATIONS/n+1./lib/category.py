@@ -33,6 +33,7 @@ class Category:
     # create ametho that creates an instance and persists the instance to the table 
     @classmethod
     def create_save(cls , name):
+        '''CREATE AND PERSIST THE CREATED VALUE TO THE DATABASE'''
         category = cls(name) # this creates an instance of category with the passed parameter during the function call ... since it is required and it operates on the class level
         category.save()
         CONN.commit()
@@ -48,11 +49,12 @@ class Category:
         CONN.commit()
     # we update anything that only exists in the table meaning it has to have an id 
     # in which we use the id to 
-    def update_table(self , name):
+    def update_table(self):
         ''' UPDATE THE TABLE ROW'''
         sql = '''
             UPDATE TABLE categories ,
             SET name = (?),
             WHERE id = (?)
             '''
-        CURSOR.commit
+        CURSOR.execute(sql,(self.id , self.name))
+        CONN.commit()
