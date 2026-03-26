@@ -26,7 +26,9 @@ class Item:
         sql = '''
             INSERT INTO items (name,category_id) VALUES (?,?);
             '''
+        
         CURSOR.execute(sql, (self.name , self.category_id))
+
         self.id = CURSOR.lastrowid
         CONN.commit() 
     
@@ -41,6 +43,6 @@ class Item:
 
     # method that creates an instanance and persists the data to the table directly
     @classmethod
-    def create_save(cls):
+    def create_save(cls,name , category_id):
         '''TAKES THE CLASS , CREATES INSTANCE AND PERSITS TO THE TABLE IMMEDIATELY'''
         item_instance = Item()

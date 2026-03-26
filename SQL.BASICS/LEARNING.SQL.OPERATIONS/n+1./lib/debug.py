@@ -4,6 +4,7 @@ from item import Item
 from category import Category
 
 def debug_database ():
+    
     Category.drop_table()
     Category.create_table()
     Item.drop_table()
